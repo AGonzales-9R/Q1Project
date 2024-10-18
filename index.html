@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>hannibap</title>
+</head>
+
+<style>
+	
+	* {
+			padding: 0;
+			margin: 0;
+		}
+
+	body {
+		background-color: whitesmoke;
+		color: black;
+		font-family: "Open Sans", sans-serif;
+  		font-optical-sizing: auto;
+ 		font-style: normal;
+  		font-variation-settings: "wdth" 100;
+	}
+	
+	#bar {
+		background-color: #4a5f90;
+		padding: 10px;
+	}
+
+	#bar ul {
+		text-align: center;
+	}
+
+	#bar li {
+		display: inline;
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+
+	#bar li a {
+		color: whitesmoke;
+		font-weight: bold;
+		text-decoration: none;
+		padding: 10px;
+  		font-size: 22px;
+	}
+
+	#bar li a:hover {
+		color: #b3bac4;
+		text-decoration: none;
+	}
+	
+	.paper {
+		display: flex;
+		width: 50%;
+		margin: auto;
+	}
+	
+	
+	.container {
+        margin: 1px auto;
+        padding: 20px;
+        max-width: 200px;
+
+    }
+
+    .card-wrapper {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+
+    .card {
+        background-color:whitesmoke;
+        border: 1px solid #ddd;
+        border-radius: 8px;
+        width: 200px;
+        margin: 50px;
+        text-align: center;
+        padding: 15px;
+        transition: 0.3s
+    }
+
+    .card img {
+        width: 100%;
+        height: auto;
+        border-radius: 5px;
+    }
+
+    .card h3 {
+        font-size: 1.5em;
+        margin: 10px 0;
+        color: black;
+    }
+
+    .card p {
+        font-size: 1em;
+        color: dimgray;
+    }
+
+    .card button {
+        background-color: black;
+        color: white;
+        border: none;
+        padding: 10px 20px;
+        border-radius: 5px;
+        cursor: pointer;
+        margin-top: 10px;
+    }
+
+    .card button:hover {
+        background-color: #555;
+    }
+
+    .card:hover {
+        box-shadow: 0 20px 20px 0 rgba(0,0,0,0.2);
+    }
+
+    img {
+  		display: block;
+  		margin-left: auto;
+  		margin-right: auto;
+  		width: 25%;			
+    }
+
+    h2 {
+    	font-size: 40px;
+    	margin-left: 100px;
+    	margin-top: 20px;
+    }
+
+    .sticks {
+    	display: flex;
+		width: 50%;
+		margin: auto;
+    }
+
+    
+    .stock {
+    	background-color: #284377;
+    	color: whitesmoke;
+    	text-align: center;
+    }
+
+    .foot {
+    	background-color: black;
+    	color: whitesmoke;
+    	text-align: center;
+    	margin-top: 10px;
+		padding: 20px;
+		border: 2px solid black;
+		align-content: center;
+    }
+
+    .back {
+    	height: 20%;
+    	margin-left: auto;
+    	margin-right: auto;
+    	display: block;
+    	width: 20%;
+    }	
+
+</style>
+
+
+<body>
+
+	<!-- HEADER -->
+	<div class="heather" id="home">
+
+	<div class="logow">
+		<img src="HANNIBAP.png" width="10%">
+	</div>
+
+	<!-- NAV BAR -->
+	<div id="bar">	
+		<ul>
+		<li><a href="#home">Home</a></li>
+		<li><a href="#albums">Albums</a></li>
+		<li><a href="#lightsticks">Light Sticks</a></li>
+		<li><a href="#join">Join the Community!</a></li>
+		</ul>
+  	</div>
+		
+	</div>
+
+	<br>
+	<br>
+
+	<!-- ALBUMS -->
+	<h2 id="albums">Albums</h2>
+
+	<div class="paper">
+
+	<br>
+	
+	<div class="card">
+	  <img src="https://m.media-amazon.com/images/I/61M1K4DPy0L._AC_UF894,1000_QL80_.jpg" alt="blueBook" style="width:100%">
+	  <h3>NewJeans BlueBook (All Albums Set)</h3>
+	  <p class="price">$92.49</p>
+	  <br>
+	  <p>NewJeans 1st EP 'New Jeans' All Albums Set</p>
+	  <br>
+	  <p><a href="https://shop.weverse.io/en/shop/GL_USD/artists/82/sales/16013">More Info</a></p>
+	  <p><button>Add to Cart</button></p>
+	</div>
+
+	<div class="card">
+	  <img src="https://m.media-amazon.com/images/I/41rygej8OZL._UF1000,1000_QL80_.jpg" alt="weverseAlbum" style="width:100%">
+	  <h3>NewJeans Weverse Album ver.</h3>
+	  <p class="price">$8.93</p>
+	  <br>
+	  <p>NewJeans 1st EP 'New Jeans' Weverse Albums ver.</p>
+	  <br>
+	  <p><a href="https://shop.weverse.io/en/shop/GL_USD/artists/82/sales/16011">More Info</a></p>
+	  <p><button>Add to Cart</button></p>
+	</div>
+
+	<div class="card">
+	  <img src="https://m.media-amazon.com/images/I/61P8JftXN4L._AC_UF894,1000_QL80_.jpg" alt="blueBookHanni" style="width:100%">
+	  <h3>NewJeans BlueBook (Hanni ver.)</h3>
+	  <p class="price">$15.41</p>
+	  <br>
+	  <p>NewJeans 1st EP 'New Jeans' Hanni ver.</p>
+	  <br>
+	  <p><a href="https://shop.weverse.io/en/shop/GL_USD/artists/82/sales/16012">More Info</a></p>
+	  <p><button>Add to Cart</button></p>
+	</div>
+	
+	</div>
+
+	<br>
+
+	<!-- LIGHTSTICKS -->
+	<h2 style="font-size: 35px;" id="lightsticks">Light Sticks</h2>
+
+	<div class="sticks">
+	
+	<div class="card">
+	  <img src="https://lh6.googleusercontent.com/proxy/Nid6g5KSr5hYerePNSoCkKB1jVA92-xaznN748NQalk57PMmXC5NLoiJSVPeYOdAPEYw8Rgi17kb3PvzHQ3ljqqZ32SecoA3qXwJuf5R3uwV-2l2CFsHMYVmrFiVRAiT6AFKsjdfGpsl41N7" alt="lightStick" style="width:100%">
+	  <h3>NewJeans Light Stick</h3>
+	  <p class="price">$40.18</p>
+	  <br>
+	  <p>NewJeans Official Light Stick</p>
+	  <br>
+	  <p><a href="https://shop.weverse.io/en/shop/GL_USD/artists/82/sales/14249">More Info</a></p>
+	  <p><button>Add to Cart</button></p>
+	</div>
+
+	<div class="card">
+	  <img src="https://lh5.googleusercontent.com/proxy/3j6HtgbFnbs3B0ES0DU_xoWQFqYGkiutu8w7o_W3FqHm0p_gYBc0z7sR6xMCCGzSKST7FN6pHc4ttuhX6O222E0gbscPs--BkwjuyqKZsqo5r9PiGQcexsJIbKkc4H4gZRWmD4dFOH3Xh6b-DFk7xUoStSEj4CPBKw5MT1QaNpLmb0CsAStIHiW3ezMyyaZ3MQJ7jTs" alt="lightStickHanni" style="width:100%">
+	  <h3>Light Stick (HANNI)</h3>
+	  <p class="price">$49.19</p>
+	  <br>
+	  <p>Light Stick & Parts Set (HANNI)</p>
+	  <br>
+	  <p><a href="https://shop.weverse.io/en/shop/GL_USD/artists/82/sales/14383">More Info</a></p>
+	  <p><button>Add to Cart</button></p>
+	</div>
+
+	<div class="card">
+	  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQqwbC8fGhvzMxAVB14KgjHPeDjphqLpJvGEg&s" alt="lightStickTokki" style="width:100%">
+	  <h3>Light Stick (NJ & TOKKI)</h3>
+	  <p class="price">$49.19</p>
+	  <br>
+	  <p>Light Stick & Parts Set (NJ & TOKKI)</p>
+	  <br>
+	  <p><a href="https://shop.weverse.io/en/shop/GL_USD/artists/82/sales/29330">More Info</a></p>
+	  <p><button>Add to Cart</button></p>
+	</div>
+
+	<br>
+
+	</div>
+
+	<br>
+
+	<!-- NEW ITEMS -->
+	<button class="back"><a href="#home" style="color: black;">Back to Home</a></button>
+	<div class="stock">
+		<h2>New Items Coming on November 2024</h2>
+		
+	</div>
+
+	<!-- FOOTER -->
+	<div class="foot">
+	<div id="join">
+		<h3 style="font-size: 35px">Join the Community!</h3>
+		<h4>get notifed when the latest items drop!</h4>
+		<br>
+		<form>
+			<label for="email">Email:</label>
+			<br>
+			<input type="text" name="email" style="width:10%">
+			<br>
+			<br>
+			<label for="pass">Password:</label>
+			<br>
+			<input type="password" id="pass" name="pass" style="width: 10%">
+			<br>
+			<br>
+			<button name="signMeUp!" type="sign" value="sign" style="width:10%">Sign Me Up!</button>
+		</form>
+
+		<br>
+
+		<p>© 2024 Amanda Gonzales | 9 Ruby</p>
+		<br>
+		<p style="font-size: 10px">Credits to: <a href="https://www.w3schools.com/" style="color: white">W3 Schools</a>, <a href="https://shop.weverse.io/en/shop/GL_USD/artists/82" style="color: white">Weverse</a>, <a href="https://halmeonimnl.com/products/newjeans-light-stick" style="color: white">Halmeoni Manila</a>, <a href="https://hallyusuperstore.com/products/pre-order-new-jeans-birthday-light-stick-parts-hanni-ver"style="color: white">Hallyu Superstore</a>, <a href="https://seoul-mate.eu/products/newjeans-light-stick-parts"style="color: white">Seoul Mate</a>, and <a href="https://www.amazon.com/s?k=new+jeans&crid=381NPUHPJFG52&sprefix=new+%2Caps%2C499&ref=nb_sb_noss_2"style="color: white">Amazon</a></p>
+	
+	</div>	
+	</div>
+
+
+</body>
+
+
+</html>
